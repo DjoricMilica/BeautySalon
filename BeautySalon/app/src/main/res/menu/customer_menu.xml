@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemLogOut"
+        android:title="Log out" />
+    <item
+        android:id="@+id/itemAllReservations"
+        android:title="All reservations" />
+    <item
+        android:id="@+id/itemMakeReservation"
+        android:title="Make reservation" />
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">BeautySalon</string>
+    <string-array name="array">
+        <item>Choose service:</item>
+        <item>haircut</item>
+        <item>nail extension</item>
+        <item>relax massage</item>
+    </string-array>
+</resources>

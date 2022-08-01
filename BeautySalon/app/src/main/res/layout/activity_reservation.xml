@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A5B5B"
+    android:backgroundTint="#6A5B5B">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6A5B5B"
+        android:orientation="vertical"
+        tools:context=".ReservationActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBackToProfile"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_action_name" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Rezervation:"
+                android:textColor="#CC1A1A"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/spinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.458" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="#9E7E7E"
+                app:srcCompat="@android:drawable/ic_menu_month" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#912E2E"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Select date:"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#9E7E7E"
+                android:gravity="center"
+                android:hint="dd.mm.yyyy."
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="#9E7E7E"
+                app:srcCompat="@android:drawable/ic_menu_compass" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#912E2E"
+                android:gravity="center"
+                android:text="Select service:"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#9E7E7E"
+                android:dropDownWidth="match_parent"
+                android:entries="@array/array"
+                android:gravity="center"
+                android:padding="10dp">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtGetTermins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:hyphenationFrequency="normal"
+            android:padding="10dp"
+            android:text="Get Termins"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewTermin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:foregroundGravity="center" />
+
+    </LinearLayout>
+</ScrollView>

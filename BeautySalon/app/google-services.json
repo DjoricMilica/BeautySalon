@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136171471156",
+    "project_id": "beautysalon-275bb",
+    "storage_bucket": "beautysalon-275bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136171471156:android:598259f7314a9a0791a561",
+        "android_client_info": {
+          "package_name": "com.example.beautysalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136171471156-7gl6cfm2gmo0dbb7o8so57hea7oeqija.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC9PF0se7lqgt8na9tSKG8ZtVPQ7K3NSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136171471156-7gl6cfm2gmo0dbb7o8so57hea7oeqija.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
